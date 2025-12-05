@@ -1,0 +1,12 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.skill {
+  border: 1px solid var(--primary);
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  text-align: center;
+}
